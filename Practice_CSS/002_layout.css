@@ -1,3 +1,18 @@
+h1 {
+	font: 70px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+	background:#474747;
+}
+
+h2 {
+	font: 70px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+	text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
+	background:#eee;
+}
+
 nav {
     display: block;
     margin-bottom: 10px;
@@ -85,17 +100,9 @@ div[id="core"] {
   border: 8px solid #ccc;
 }
 
-/* Recommended */
-@font-face{
-font-family:ng;
-src:url(NanumGothic.eot);
-src:local(※), url(fonts/NanumGothic.woff) format('woff')
-}
-
 body {
-  /*background: url(stonehenge.jpg) no-repeat; background-size: 100%;*/
-  background-color: rgba(0,0,0,0.2);
-  font-family:나눔고딕, NanumGothic, ng;
+  	/*background: url(stonehenge.jpg) no-repeat; background-size: 100%;*/
+	background-color: rgba(0,0,0,0.2); 
 }
 
 .btn {
