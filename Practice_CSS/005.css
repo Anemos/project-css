@@ -1,0 +1,31 @@
+body { 
+	
+}
+
+.example-date {
+  background-color:#998877;
+  float:left;
+  margin-left:10px;
+  padding:45px 5px 0;
+  position:relative;
+}
+.example-date .day {
+  font-size:45px;
+  left:5px;
+  line-height:45px;
+  position:absolute;
+  top:0;
+}
+.example-date .month {
+  font-size:25px;
+  text-transform:uppercase;
+}
+.example-date .year {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  display:block;
+  position:absolute;
+  right:-5px;
+  top:15px;
+}

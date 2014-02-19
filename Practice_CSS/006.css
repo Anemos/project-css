@@ -1,0 +1,20 @@
+body { 
+	
+}
+
+.stroke {
+ color: #c00;
+ -webkit-text-stroke: 1px #000;
+ text-stroke: 1px #000;
+}
+
+.stroke::selection { background:pink; }
+
+.stroke-transparent {
+ -webkit-text-stroke: 1px #000;
+ -webkit-text-fill-color: transparent;
+ text-stroke: 1px #000;
+ text-fill-color: transparent;
+}
+
+.stroke-transparent::selection { background:lightblue; }
